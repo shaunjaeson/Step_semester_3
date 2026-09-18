@@ -9,9 +9,7 @@ public class SeatDuplication {
             for (int j = i + 1; j < seatNumbers.length; j++) {
 
                 if (seatNumbers[i] == seatNumbers[j]) {
-                    System.out.println(
-                        "Duplicate Seat Number Found: " + seatNumbers[i]
-                    );
+                    System.out.println("Duplicate Seat Number Found: " + seatNumbers[i]);
                     duplicateFound = true;
                 }
             }
@@ -23,7 +21,9 @@ public class SeatDuplication {
     }
 
     public static void main(String[] args) {
+
         int[] seats = {101, 102, 103, 102, 105};
+
         checkDuplicateSeats(seats);
     }
 }

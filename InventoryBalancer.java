@@ -41,13 +41,13 @@ public class InventoryBalancer {
             }
         }
 
-        System.out.println("Section A Total: " + totalA);
-        System.out.println("Section B Total: " + totalB);
-        System.out.println("Status: " + status);
         System.out.println(
-            "Highest Quantity: " + highest
-            + " (" + highestSection
-            + ", Item " + (highestIndex + 1) + ")"
+            "Section A Total: " + totalA +
+            " | Section B Total: " + totalB +
+            " | Status: " + status +
+            " | Highest Quantity: " + highest +
+            " (" + highestSection +
+            ", Item " + (highestIndex + 1) + ")"
         );
     }
 

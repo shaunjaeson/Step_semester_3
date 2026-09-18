@@ -22,9 +22,9 @@ public class WordLengthProfiler {
         }
 
         System.out.println(
-            "Short: " + shortWords
-            + " | Medium: " + mediumWords
-            + " | Long: " + longWords
+            "Short: " + shortWords +
+            " | Medium: " + mediumWords +
+            " | Long: " + longWords
         );
     }
 
